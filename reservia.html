@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
+
 <head>
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
@@ -16,6 +17,9 @@
 <body class="bloc_page">
 	<header>
 		<img class="logo" src="images/logo/Reservia@3x.png" alt="logo">
+		<div class="inscri">
+			<a href="#">S'incrire</a>
+		</div>
 		<nav class="boutons">
 			<ul>
 				<li class="heber"><a href="#section1">Hébergements</a></li>
@@ -36,7 +40,10 @@
 			<form method="post" action="formulaire.php">
 				<p>
 					<input type="text" name="barre_recherche" id="barre_recherche"><input type="submit" name="envoie" value="Rechercher" class="rechercher">
-					
+					<button class="loupe">
+    					<i class="fas fa-search"></i>
+					</button>
+
 				</p>
 			</form>
 		</div>
@@ -60,26 +67,26 @@
 	<section id="section1">
 	<div class="gauche">
 		<div class="titre_section1">
-			<h1>Hébergements à Marseille</h1>
+			<h2>Hébergements à Marseille</h2>
 		</div>
 		<div class="img_section1">
 			<nav class="img1">
-				<a href="#"><h2>Auberge La Cannebière</h2><p>Nuit à partir de 25€</p></a>
+				<a href="#"><h3>Auberge La Cannebière</h3><p>Nuit à partir de 25€<br /><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i></p></a>
 			</nav>
 			<nav class="img2">
-				<a href="#"><h2>Hôtel du port</h2><p>Nuit à partir de 52€</p></a>
+				<a href="#"><h3>Hôtel du port</h3><p>Nuit à partir de 52€<br /><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i></p></a>
 			</nav>
 			<nav class="img3">
-				<a href="#"><h2>Hôtel Les mouettes</h2><p>Nuit à partir de 76€</p></a>
+				<a href="#"><h3>Hôtel Les mouettes</h3><p>Nuit à partir de 76€<br /><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i></p></a>
 			</nav>
 			<nav class="img4">
-				<a href="#"><h2>Hôtel de la mer</h2><p>Nuit à partir de 46€</p></a>
+				<a href="#"><h3>Hôtel de la mer</h3><p>Nuit à partir de 46€<br /><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i></p></a>
 			</nav>
 			<nav class="img5">
-				<a href="#"><h2>Auberge Le panier</h2><p>Nuit à partir de 23€</p></a>
+				<a href="#"><h3>Auberge Le panier</h3><p>Nuit à partir de 23€<br /><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i></p></a>
 			</nav>
 			<nav class="img6">
-				<a href="#"><h2>Hôtel chez Amina</h2><p>Nuit à partir de 95€</p></a>
+				<a href="#"><h3>Hôtel chez Amina</h3><p>Nuit à partir de 95€<br /><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i></p></a>
 			</nav>
 			
 		</div>
@@ -90,48 +97,68 @@
 
 		<aside>
 			<div class="titre_pop">
-				<h1>Les plus populaires</h1>
+				<h2>Les plus populaires</h2>
 				<i class="fas fa-chart-line"></i>
 			</div>
 			<nav class="img7">
-				<a href=""><h2>Hôtel Le soleil du matin</h2><p>Nuit à partir de 178€</p></a>
+				<a href=""><h3>Hôtel Le soleil du matin</h3><p>Nuit à partir de 178€<br /><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i></p></a>
 			</nav>
 			<nav class="img8">
-				<a href=""><h2>Au coeur de l'eau Chambres d'hôtes</h2><p>Nuit à a partir de 71€</p></a>
+				<a href=""><h3>Au coeur de l'eau Chambres d'hôtes</h3><p>Nuit à a partir de 71€<br /><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i></p></a>
 			</nav>
 			<nav class="img9">
-				<a href=""><h2>Hôtel Tout bleu et Blanc</h2><p>Nuit à partir de 58€</p></a>
+				<a href=""><h3>Hôtel Tout bleu et Blanc</h3><p>Nuit à partir de 58€<br /><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i><i class="fas fa-star" id="stars"></i></p></a>
 			</nav>
 		</aside>
 	</section>
 
 	<section id="section2">
 		<div class="titre_section2">
-			<h1>Activités à Marseille</h1>
+			<h2>Activités à Marseille</h2>
 		</div>
 		<div class="imgs">
 			<nav class="img10">
-				<a href=""><h2>Vieux Port</h2></a>
+				<a href=""><h3>Vieux Port</h3></a>
 			</nav>
 		<div class="enssemble1">
 			<nav class="img11">
-				<a href=""><h2>Fort de Pomègues</h2></a>
+				<a href=""><h3>Fort de Pomègues</h3></a>
 			</nav>
 			<nav class="img12">
-				<a href=""><h2>Iles du Frioul</h2></a>
+				<a href=""><h3>Iles du Frioul</h3></a>
 			</nav>
 		</div>
 			<nav class="img13">
-				<a href=""><h2>Parc National des Calanques</h2></a>
+				<a href=""><h3>Parc National des Calanques</h3></a>
 			</nav>
 		<div class="enssemble2">
 			<nav class="img14">
-				<a href=""><h2>Notre-Dame-de-la-Garde</h2></a>
+				<a href=""><h3>Notre-Dame-de-la-Garde</h3></a>
 			</nav>
 			<nav class="img15">
-				<a href=""><h2>Parc Longchamps</h2></a>
+				<a href=""><h3>Parc Longchamps</h3></a>
 			</nav>
 		</div>
+		</div>
+		<div class="petitactv">
+			<nav class="img10">
+				<a href=""><h3>Vieux Port</h3></a>
+			</nav>
+			<nav class="img11">
+				<a href=""><h3>Fort de Pomègues</h3></a>
+			</nav>
+			<nav class="img12">
+				<a href=""><h3>Iles du Frioul</h3></a>
+			</nav>
+			<nav class="img13">
+				<a href=""><h3>Parc National des Calanques</h3></a>
+			</nav>
+			<nav class="img14">
+				<a href=""><h3>Notre-Dame-de-la-Garde</h3></a>
+			</nav>
+			<nav class="img15">
+				<a href=""><h3>Parc Longchamps</h3></a>
+			</nav>
 		</div>
 	</section>
 
