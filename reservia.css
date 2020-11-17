@@ -620,7 +620,7 @@ footer ul
  	padding-left: 0;
 }
 
-@media all and (max-width: 720px)
+@media all and (max-width: 980px)
 {
 	.bloc_page
 	{
@@ -854,6 +854,8 @@ footer ul
 
 	.gauche
 	{
+		display: flex;
+		flex-direction: column;
 		background-color: #ffffff;
 		margin: auto;
 		width: 100%;
