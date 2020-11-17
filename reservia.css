@@ -785,7 +785,6 @@ footer ul
 		align-self: flex-start;
 		margin-left: 10px;
 		font-size: 2em;
-		margin-bottom: 0px;
 	}
 
 	.filtres ul
@@ -793,13 +792,13 @@ footer ul
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		margin:auto;
-
 	}
+
+	
 
 	.filtres li
 	{
-		margin: 10px;
+		margin: 5px;
 		font-size: 1.5em;
 
 
@@ -809,7 +808,7 @@ footer ul
 	.filtres a
 	{	
 		margin-right: auto;
-		margin-left: 10px;
+		margin-left: 30px;
 
 	}
 
