@@ -300,6 +300,7 @@ aside
 	position: relative;
 	width: 180px;
 	height: 100px;
+
 	
 }
 
@@ -437,10 +438,9 @@ aside a
 {
 	margin-right: 90px;
 	margin-left: 0px;
+}
 
-	
 
-}	
 
 .img_section1 a
 {
@@ -625,7 +625,8 @@ footer ul
 {
 	.bloc_page
 	{
-		width: auto;		
+		width: 100%;
+
 	}
 
 	h1
@@ -828,14 +829,16 @@ footer ul
 
 	.titre_pop 
 	{
-		font-size: 1.5em;
+		
 		margin: 30px;
+		font-size: 1.5em;
 	}
+
 
 	aside
 	{
 		margin: auto;
-		width: 100%;
+		width: 102%;
 		border-radius: 0;
 
 	}
@@ -845,6 +848,7 @@ footer ul
 	{
 		margin: 30px;
 		width: 20px;
+		font-size: 1.7em;
 		
 	}
 	
@@ -852,15 +856,31 @@ footer ul
 	{
 		display: flex;
 		flex-wrap: wrap;
-		padding: 10px;
+		padding: 20px;
 		text-align: left;
-		font-size: 2.5em;
+		font-size: 1.5em;
 	}
 
 	aside p
 	{
-		padding: 10px;
+		padding: 20px;
 		padding-top: 0;
+	
+	}
+
+	.img7 i
+	{
+		margin-top: 30px;
+	}
+
+	.img8 i
+	{
+		margin-top: 30px;
+	}
+
+	.img9 i
+	{
+		margin-top: 30px;
 	}
 
 	.img7
@@ -977,7 +997,7 @@ footer ul
 
 	#section2 a
 	{
-		width: 100%;
+		width: 97.8%;
 		height: 20%;
 	}
 
@@ -987,38 +1007,18 @@ footer ul
 	footer
 	{
 		display: flex;
-		flex-direction: column;
-		margin: auto;
-		padding: auto;
-		width: auto;
-		align-items: flex-start;
+		flex-direction: column;	
+		width: 91.7%;
 		font-size: 1.7em;
+		
 	}
 
-	footer div
-	{
-		margin-left: 10px;
-		margin-right: auto;
-	}
+
 
 	footer li
-	{
-		text-align: left;
+	{	
 		font-size: 1.3em;
 	}
-
-
-
-	
-	
-
-
-
-
-
-
-
-
 
 }
 
