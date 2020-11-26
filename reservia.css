@@ -165,6 +165,8 @@ h1
 	padding: 15px;
 	border: 1px solid #f2f2f2;
 	margin-right: 0px;
+	font-weight: bold;
+
 }
 
 .rechercher
@@ -229,6 +231,12 @@ h1
 	font-weight: bolder;
 	color: #0065FC;
 	border-bottom: 1px solid #0065FC;
+}
+
+.fa-child
+{
+	width: 15px;
+	align-self: center;
 }
 
 .infos
@@ -772,12 +780,19 @@ footer ul
 	#barre_recherche
 	{
 		padding: 40px 100px 40px 100px;
+
 	}
 
 	.filtres
 	{
 		display: flex;
 		flex-direction: column;
+	}
+
+	.filtres i
+	{
+		margin-left: -2px;
+
 	}
 
 	.filtres p
@@ -800,6 +815,7 @@ footer ul
 	{
 		margin: 5px;
 		font-size: 1.5em;
+
 
 
 	}
@@ -996,7 +1012,7 @@ footer ul
 
 	#section2 a
 	{
-		width: 97.8%;
+		width: 97.9%;
 		height: 20%;
 	}
 
